@@ -6,9 +6,6 @@ from pynput.keyboard import Key, Controller
 
 keyboard = Controller()
 
-#shellExecute('wmctrl -a discord')
-
-
 def shellExecute(command):
     os.system(command)
 

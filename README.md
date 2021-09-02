@@ -21,3 +21,15 @@ which translates into:
 ssh raspberry_pi@IP /PATH/TO/FILE cs
 ```
 and boom I'm on the cs channel.
+
+
+## requirements
+Needs:
+
+Python and wmctrl
+
+ **wmctrl** 
+:
+```
+sudo apt install wmctrl
+```
