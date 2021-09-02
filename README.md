@@ -20,6 +20,16 @@ which translates into:
 ```
 ssh raspberry_pi@IP /PATH/TO/FILE cs
 ```
+
+###powershell
+for if you want an alias in powershell you first need to create a function
+```
+function SSH-TO-NAME { ssh -i \Path\To\Key.pem "user@server.com cs" }
+```
+then:
+```
+New-Alias -Name ALIAS-NAME -Value SSH-TO-NAME
+```
 and boom I'm on the cs channel.
 
 
